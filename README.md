@@ -1,73 +1,28 @@
-# React + TypeScript + Vite
+ASTRA-X – AI-Powered Earth Digital Twin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ASTRA-X is a Space & Aerospace innovation platform that transforms Earth observation data into actionable intelligence through an AI-powered Digital Twin of Earth. By combining satellite-derived environmental insights, climate simulations, and AI reasoning, ASTRA-X enables users to explore future scenarios, assess risks, and test sustainable interventions before real-world implementation.
 
-Currently, two official plugins are available:
+The platform allows users to visualize environmental conditions, simulate the impact of challenges such as heatwaves, water scarcity, and urban expansion, and interact with an AI-driven Earth Negotiation Simulator that demonstrates how human decisions influence the future of communities and ecosystems.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
 
-## React Compiler
+🌍 Earth Digital Twin Visualization
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛰️ Space & Environmental Data Integration
 
-## Expanding the ESLint configuration
+🤖 AI-Powered Environmental Analysis
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔮 Future Scenario Simulation
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🌱 Sustainability Intervention Lab
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+💬 Earth Negotiation Simulator
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+📊 Automated Impact & Sustainability Reports
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Mission:
+To democratize access to space intelligence and empower individuals, communities, and decision-makers to create a more sustainable and resilient future.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Tagline:
+"Ask Earth About Its Future." 🚀🌎
